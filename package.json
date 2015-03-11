@@ -1,0 +1,17 @@
+{
+  "name": "php-markdown-extra-doc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "dependencies": {
+    "markdown-it": "^3.1.0",
+    "markdown-it-toc": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivan Yan",
+  "repository": "https://github.com/yanxyz/php-markdown-extra-doc",
+  "license": "MIT"
+}
