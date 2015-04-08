@@ -2,6 +2,8 @@
 
 [译文](https://yanxyz.github.io/php-markdown-extra-doc)
 
+## 怎么做
+
 翻译文档为 `doc.md`，将它转为 `index.html`:
 
 1. npm install
