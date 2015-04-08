@@ -13,7 +13,7 @@ fs.readFile('doc.md', 'utf8', function(err, data) {
 
   fs.readFile('tpl.html', 'utf8', function(err, data) {
     if (err) throw err;
-    data = data.replace('[[content]]', result);
+    data = data.replace('{{content}}', result);
     fs.writeFile('index.html', data, 'utf8');
-  });  
+  });
 });

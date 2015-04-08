@@ -1,8 +1,8 @@
-# php Markdown Extra
+# PHP Markdown Extra
 
 [English](https://michelf.ca/projects/php-markdown/extra/)
-[简体中文](https://github.com/yanxyz/php-markdown-extra-doc)
-译者：Ivan Yan
+
+本文由 [Ivan Yan](http://yanxyz.net) 翻译。译文版权 ["署名-非商用"](http://creativecommons.org/licenses/by-nc/4.0/)。若有问题欢迎[反馈](https://github.com/yanxyz/php-markdown-extra-doc/issues)。
 
 Markdown Extra 是 PHP Markdown 的扩展，实现了一些 Markdown 没有的特性。在 [PHP Markdown Lib](http://michelf.ca/projects/php-markdown/) 中是独立的解析器类。
 

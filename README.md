@@ -1,6 +1,6 @@
-# php Markdown Extra 中文翻译
+# PHP Markdown Extra 中文翻译
 
-原文见[php Markdown Extra](https://michelf.ca/projects/php-markdown/extra/)。
+[译文](https://yanxyz.github.io/php-markdown-extra-doc)
 
 翻译文档为 `doc.md`，将它转为 `index.html`:
 
@@ -11,4 +11,4 @@
 
 ## 版权
 
-翻译 ["署名-非商用"](http://creativecommons.org/licenses/by-nc/4.0/)
+译文 ["署名-非商用"](http://creativecommons.org/licenses/by-nc/4.0/)
