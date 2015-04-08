@@ -2,19 +2,18 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>Ivan Yan - PHP Markdown Extra 中文翻译</title>
-  <meta name="description" content="PHP Markdown Extra 中文翻译，由 Ivan Yan 翻译。 " />
+  <title>PHP Markdown Extra 中文翻译 | Ivan Yan</title>
+  <meta name="description" content="PHP Markdown Extra 语法中文翻译，由 Ivan Yan 翻译。 " />
   <link rel="stylesheet" href="https://michelf.ca/style/projets.css" />
 </head>
 <body>
   <div id="content">
-    <h1><a id="php_Markdown_Extra_0"></a>php Markdown Extra</h1>
-<p><a href="https://michelf.ca/projects/php-markdown/extra/">English</a>
-<a href="https://github.com/yanxyz/php-markdown-extra-doc">简体中文</a>
-译者：Ivan Yan</p>
+    <h1><a id="PHP_Markdown_Extra_0"></a>PHP Markdown Extra</h1>
+<p><a href="https://michelf.ca/projects/php-markdown/extra/">English</a></p>
+<p>本文由 <a href="http://yanxyz.net">Ivan Yan</a> 翻译。译文版权 <a href="http://creativecommons.org/licenses/by-nc/4.0/">&quot;署名-非商用&quot;</a>。若有问题欢迎<a href="https://github.com/yanxyz/php-markdown-extra-doc/issues">反馈</a>。</p>
 <p>Markdown Extra 是 PHP Markdown 的扩展，实现了一些 Markdown 没有的特性。在 <a href="http://michelf.ca/projects/php-markdown/">PHP Markdown Lib</a> 中是独立的解析器类。</p>
 <p>本文档说明 Markdown Extra 对 <a href="https://daringfireball.net/projects/markdown/syntax">Markdown 语法</a> 的调整及扩展。阅读之前应先熟悉 Markdown 语法。</p>
-<p><h3>目录</h3><ul><li><a href="#php_Markdown_Extra_0">php Markdown Extra</a></li><ul><li><a href="#插入_HTML_12">插入 HTML</a></li><li><a href="#在_HTML_块元素内使用_Markdown_25">在 HTML 块元素内使用 Markdown</a></li><li><a href="#特殊属性_53">特殊属性</a></li><li><a href="#围栏式代码块_97">围栏式代码块</a></li><li><a href="#表格_150">表格</a></li><li><a href="#定义列表_206">定义列表</a></li><li><a href="#脚注_312">脚注</a></li><ul><li><a href="#输出_339">输出</a></li></ul><li><a href="#缩略词_381">缩略词</a></li><li><a href="#有序列表_406">有序列表</a></li><li><a href="#强调_410">强调</a></li><li><a href="#转义_428">转义</a></li><li><a href="#致谢_432">致谢</a></li></ul></ul></p>
+<p><h3>目录</h3><ul><li><a href="#PHP_Markdown_Extra_0">PHP Markdown Extra</a></li><ul><li><a href="#插入_HTML_12">插入 HTML</a></li><li><a href="#在_HTML_块元素内使用_Markdown_25">在 HTML 块元素内使用 Markdown</a></li><li><a href="#特殊属性_53">特殊属性</a></li><li><a href="#围栏式代码块_97">围栏式代码块</a></li><li><a href="#表格_150">表格</a></li><li><a href="#定义列表_206">定义列表</a></li><li><a href="#脚注_312">脚注</a></li><ul><li><a href="#输出_339">输出</a></li></ul><li><a href="#缩略词_381">缩略词</a></li><li><a href="#有序列表_406">有序列表</a></li><li><a href="#强调_410">强调</a></li><li><a href="#转义_428">转义</a></li><li><a href="#致谢_432">致谢</a></li></ul></ul></p>
 <h2><a id="插入_HTML_12"></a>插入 HTML</h2>
 <p>在 Markdown 中可以插入 HTML 代码。当某些特性 Markdown 不支持而用 HTML 容易实现时，这会很有用。</p>
 <p>但是 Markdown 对块级元素有严格的限制。来看 Markdown 语法文档：</p>
